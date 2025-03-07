@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.dylib
+
+# Virtual Environment
+venv/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE and Editor Configs
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and Debugging
+logs/
+*.log
+
+# Test & Coverage Reports
+.coverage
+htmlcov/
+pytest_cache/
+junit.xml
+
+# FastAPI & Uvicorn Cache
+instance/
+*.db
+*.sqlite3
+
+# Allure Report Data
+allure-results/
+allure-report/
+
+# Pytest Artifacts
+.cache/
+__pycache__/
+.tox/
